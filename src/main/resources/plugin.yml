@@ -1,0 +1,17 @@
+name: ServerUtilities
+version: '${project.version}'
+main: com.batmanatorul.serverutilities.ServerUtilities
+api-version: 1.18
+authors: [ Batmanatorul ]
+description: This plugin adds a lot of commands and things that help a server
+
+commands:
+  discord:
+    usage: "/discord"
+  report:
+    usage: "/report player <player name> or /report bug <bug name>"
+  suggest:
+    usage: "/suggest <suggestion name>"
+  suggestions:
+    usage: "/suggestions"
+    permission: op
